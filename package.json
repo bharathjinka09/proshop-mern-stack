@@ -4,14 +4,17 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "node backend/server"
+    "start": "node backend/server",
+    "server": "nodemon backend/server",
+    "client": "npm start --prefix frontend",
+    "dev": "concurrently \"npm run server\" \"npm run client\""
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/bharathjinka09/proshop-mern-stack.git"
   },
   "keywords": [],
-  "author": "",
+  "author": "Jinka Ranga Bharath",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/bharathjinka09/proshop-mern-stack/issues"
@@ -19,5 +22,9 @@
   "homepage": "https://github.com/bharathjinka09/proshop-mern-stack#readme",
   "dependencies": {
     "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "concurrently": "^5.3.0",
+    "nodemon": "^2.0.4"
   }
 }
