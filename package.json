@@ -1,0 +1,23 @@
+{
+  "name": "proshop",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node backend/server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bharathjinka09/proshop-mern-stack.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bharathjinka09/proshop-mern-stack/issues"
+  },
+  "homepage": "https://github.com/bharathjinka09/proshop-mern-stack#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
