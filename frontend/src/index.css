@@ -1,3 +1,7 @@
+body {
+  background: aliceblue;
+}
+
 main {
   min-height: 80vh;
 }
